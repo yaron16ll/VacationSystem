@@ -1,0 +1,21 @@
+#graph {
+  width: 80%;
+  height: 100%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+#graphBackButton {
+  float: left;
+  margin-top:40px
+}
+
+@media screen and (max-width: 840px) {
+  #graf {
+  
+    width: 100%;
+  
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+}

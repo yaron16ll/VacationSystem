@@ -1,0 +1,131 @@
+#vacations h1 {
+    margin-top: 70px;
+}
+
+#vacations #back {
+    float: left;
+    margin-left: 50px;
+    margin-top: -50px;
+    margin-bottom: 0px;
+}
+
+#destinationNameHeader {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container {
+    margin-top: 0px
+}
+
+#followBtn {
+    color: #333;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-weight: bold;
+    background-color: lightgreen;
+    font-size: 10px;
+    height: 30px;
+}
+
+#edits {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.adminBtn{
+    background: transparent;
+
+}
+
+#destinationNameHeader {
+    margin-top: 10px;
+}
+
+#searchForm {
+    width: 100%;
+    margin: auto;
+    margin-top: 10px;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+#searchForm input, button {
+    border: none;
+    margin-left: 10px;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.datePickerPipe {
+    background: rgb(255, 255, 255);
+}
+
+.card {
+    min-height: 600px;
+}
+
+.card-description {
+    font-size: 16px;
+    height: 110px;
+    text-align: left
+}
+
+.card-text {
+    font-size: 16px;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.card-footer p {
+    font-size: 18px;
+}
+
+.btn-reset {
+    background: rgb(218, 216, 216);
+}
+
+#follow-btns>.unfollowed {
+    background-color: lightcoral;
+}
+
+#notFoundMessage {
+    color: red;
+}
+
+@media screen and (max-width: 840px) {
+
+    #graph-btn{
+
+        display: none;
+    }
+    #vacations h1 {
+        margin-top: 200px;
+    }
+    #vacations #back {
+        float: left;
+        margin-top: -50px;
+        margin-bottom: 0px;
+    }
+    #destinationNameHeader {
+        font-size: 26px;
+        margin-top: 30px;
+    }
+    #followBtn {
+        font-size: 10px;
+        height: 30px;
+    }
+    #searchForm {
+        margin-bottom: 100px;
+    }
+
+    .card-description {
+margin-left: -30px;
+    }
+    
+}

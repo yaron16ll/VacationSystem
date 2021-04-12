@@ -1,0 +1,1 @@
+{ "secret": "This segment is usually called secret, This string is used to sign and verify jwt tokens."}

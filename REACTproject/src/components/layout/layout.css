@@ -1,0 +1,32 @@
+#layout {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+}
+
+#layout>* {
+    display: block;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    z-index: 99;
+}
+
+main {
+    min-height: 100%;
+    padding-top: 90px
+}
+
+@media screen and (max-width: 840px) {
+    main {
+        padding-top: 0px
+    }
+    header {
+        position: relative;
+        height: 50px
+    }
+}

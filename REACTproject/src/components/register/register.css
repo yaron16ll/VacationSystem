@@ -1,0 +1,18 @@
+#registerDiv>.container {
+    width: 400px;
+    height: 350px;
+}
+
+.container>.form-group {
+    margin-bottom: 50px;
+}
+
+.container>.btn {
+    margin-right: 10px;
+}
+
+.form-group>span {
+    float: left;
+    color: red;
+    font-size: 14px;
+}

@@ -1,0 +1,17 @@
+#alert-dialog-title>* {
+    color: red;
+    text-align: center;
+    font-size: 35px;
+}
+
+#alert-dialog-description {
+    color: red;
+    text-align: center;
+}
+
+
+@media screen and (max-width: 840px) {
+    #alert-dialog-description {
+        text-align: left;
+    }
+  }

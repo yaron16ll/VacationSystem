@@ -1,0 +1,67 @@
+.AddVacation>.container {
+    margin: 0 auto;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+.form-group>input[type="file"] {
+    display: none;
+}
+
+#up {
+    margin-left: -80px;
+}
+
+.form-group>img {
+    width: 280px;
+    height: 180px;
+    margin-top: 20px;
+}
+
+.text-danger {
+    background-color: rgb(255, 255, 255);
+    border: none;
+    margin-right: 20px;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.date .form-control {
+    width: 300px
+}
+
+#btns {
+    width: 100%;
+}
+
+.btn-primary {
+    margin-right: 5px;
+}
+
+#description {
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
+}
+
+@media screen and (max-width: 840px) {
+    h1 {
+        margin-top: 150px;
+        font-size: 32px;
+    }
+    #up {
+        margin-left: 0px;
+    }
+
+    .date {
+margin-top:20px   
+
+}
+
+#btns {
+   margin-top:40px
+}
+}
