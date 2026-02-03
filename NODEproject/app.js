@@ -23,9 +23,6 @@ if (!fs.existsSync("./uploads")) {
 
 // Registering to Middlewares:
 
-// On the event of HTTP request that ends with /uploads, serve the uploads folder
-server.use("/uploads", express.static("uploads"));
-
 // Enables other domains to connect to my server
 server.use(cors());
 
@@ -40,6 +37,8 @@ server.use(fileUpload());
 
 
 
+//request that ends with /uploads, serve the uploads folder
+server.use("/uploads", express.static("uploads"));
 
 server.use("/users", usersController);
 server.use("/destinations", destinationsController);
